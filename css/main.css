@@ -1,0 +1,33 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font: 15px/18px "Lato", sans-serif;
+}
+.clearfix::after {
+  content: "";
+  clear: none;
+
+}
+main {
+  width: 1200px;
+  margin: 150px auto 0;
+}
+.left-form {
+  float: right;
+  width: 576px;
+}
+.right-form {
+  float: left;
+  width: 576px;
+}
+.custom-radio {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #777;
+  border-radius: 50%;
+  float: left;
+  
+}
